@@ -3,6 +3,8 @@ JAVASCRIPT
 1.	Menambahkan JavaScript
 ![Foto Profil](ss2/1.jpg)
 
+![Foto Profil](ss2/a.jpg)
+
 
 
 
@@ -12,15 +14,14 @@ JAVASCRIPT
 
 2.	Output dan dialog
 
+![Foto Profil](ss2/2.jpg)
+
+![Foto Profil](ss2/2a.jpg)
 
 
+![Foto Profil](ss2/2d.jpg)
 
-
-
-
-
-
-
+![Foto Profil](ss2/2s.jpg)
 
 
 
@@ -28,7 +29,7 @@ JAVASCRIPT
 
 3.	Variabel, tipe data, dan operator
 
-
+![Foto Profil](ss2/1.jpg)
 
 
 	
