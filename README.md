@@ -2,7 +2,7 @@
 JAVASCRIPT
 1.	Menambahkan JavaScript
 
-![Tampilan Web](ss2/1.png)
+![Tampilan Web](1.png)
 
 ![Tampilan Web](ss2/1a.png)
 
