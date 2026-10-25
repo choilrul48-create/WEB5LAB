@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pratikum javascript</title>
+  </head>
+  <body>
+    <h1>Pengenalan JavaScript</h1>
+    <p id="pesan">Konten awal.</p>
+    <script src="script.js"></script>
+    <button onclick="ubahTampilan()">Ubah Tampilan</button>
+
+    <label for="bilangan">Masukkan bilangan bulat:</label>
+    <input type="number" id="bilangan" step="1" />
+    <button type="button" onclick="cekBilangan()">Periksa</button>
+    <p id="hasilBilangan"></p>
+    <button type="button" onclick="ubahWarnaLatar('lightgreen')">
+      Latar Hijau
+    </button>
+    <button type="button" onclick="ubahWarnaLatar('white')">Latar Putih</button>
+    <button type="button" onclick="ubahWarnaLatar('lightyellow')">
+      Latar Kuning
+    </button>
+
+    <h3>Daftar Menu Makanan</h3>
+    <label
+      ><input type="checkbox" class="menu" value="5000" /> Ayam Goreng —
+      Rp5.000</label
+    ><br />
+    <label
+      ><input type="checkbox" class="menu" value="500" /> Tempe — Rp500</label
+    ><br />
+    <label
+      ><input type="checkbox" class="menu" value="2500" /> Telur Dadar —
+      Rp2.500</label
+    ><br />
+    <p>Total: Rp<span id="total">0</span></p>
+
+    <h2>Form Hitung Nilai Akhir</h2>
+    <form id="nilaiForm">
+      <div>
+        <label for="tugas">Nilai Tugas (0 - 100):</label><br />
+        <input type="number" id="tugas" min="0" max="100" required />
+        <span id="errorTugas" style="color: red; display: none">
+          Nilai harus antara 0-100!</span
+        >
+      </div>
+      <br />
+      <div>
+        <label for="uts">Nilai UTS (0 - 100):</label><br />
+        <input type="number" id="uts" min="0" max="100" required />
+        <span id="errorUts" style="color: red; display: none">
+          Nilai harus antara 0-100!</span
+        >
+      </div>
+      <br />
+      <div>
+        <label for="uas">Nilai UAS (0 - 100):</label><br />
+        <input type="number" id="uas" min="0" max="100" required />
+        <span id="errorUas" style="color: red; display: none">
+          Nilai harus antara 0-100!</span
+        >
+      </div>
+      <br />
+      <button type="button" onclick="prosesDanTampilkan()">Hitung Nilai</button>
+    </form>
+
+    <hr />
+
+    <div id="resultBox" style="display: none">
+      <h3>Hasil Kelulusan:</h3>
+      <p>Nilai Akhir: <strong id="resNilaiAkhir">-</strong></p>
+      <p>Predikat: <strong id="resPredikat">-</strong></p>
+      <p>Status: <strong id="resStatus">-</strong></p>
+    </div>
+
+    <h3>Daftar Menu Makanan</h3>
+    <!-- 3 Pilihan Menu Awal -->
+    <label
+      ><input type="checkbox" class="menu" value="5000" /> Ayam Goreng —
+      Rp5.000</label
+    ><br />
+    <label
+      ><input type="checkbox" class="menu" value="500" /> Tempe — Rp500</label
+    ><br />
+    <label
+      ><input type="checkbox" class="menu" value="2500" /> Telur Dadar —
+      Rp2.500</label
+    ><br />
+
+    <!-- Tambahan Minimal Dua Pilihan Menu Baru -->
+    <label
+      ><input type="checkbox" class="menu" value="3000" /> Nasi Putih —
+      Rp3.000</label
+    ><br />
+    <label
+      ><input type="checkbox" class="menu" value="2000" /> Es Teh Manis —
+      Rp2.000</label
+    ><br />
+
+    <p>Total: Rp<span id="total">0</span></p>
+
+    <h2>Latihan Toggle Elemen HTML</h2>
+
+    <!-- Tombol pemicu aksi -->
+    <button id="btnToggle" onclick="toggleElemen()">Sembunyikan Kotak</button>
+
+    <br /><br />
+
+    <!-- Elemen yang akan disembunyikan / ditampilkan -->
+    <div
+      id="kotakKonten"
+      style="padding: 20px; background-color: lightblue; width: 200px"
+    >
+      <p>Ini adalah teks di dalam kotak konten yang bisa disembunyikan.</p>
+    </div>
+  </body>
+</html>
