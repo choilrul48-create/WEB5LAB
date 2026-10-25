@@ -2,9 +2,9 @@
 JAVASCRIPT
 1.	Menambahkan JavaScript
 
-![Foto Profil](ss2/1.png)
+![Tampilan Web](ss2/1.png)
 
-![Foto Profil](ss2/1a.png)
+![Tampilan Web](ss2/1a.png)
 
 
 
