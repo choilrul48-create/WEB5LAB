@@ -1,6 +1,8 @@
 # WEB5LAB
 JAVASCRIPT
 1.	Menambahkan JavaScript
+
+
 ![Foto Profil](ss2/1.jpg)
 
 ![Foto Profil](ss2/1a.jpg)
