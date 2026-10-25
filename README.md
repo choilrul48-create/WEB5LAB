@@ -1,5 +1,6 @@
 # WEB5LAB
 JAVASCRIPT
+https://choilrul48-create.github.io/WEB5LAB/
 1.	Menambahkan JavaScript
 
 
